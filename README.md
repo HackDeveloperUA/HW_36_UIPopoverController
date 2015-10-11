@@ -38,8 +38,9 @@
 
 Вот такое вот задание, а что вы хотели, это вам не хиханьки хахоньки :) Работать надо, много причем, детский сад закончился :)
 
-![alt tag](https://pp.vk.me/c622222/v622222080/464ca/Y85iyjOt3EY.jpg)
 ![alt tag](https://pp.vk.me/c622222/v622222080/464b2/scrypNNHR_c.jpg)
 ![alt tag](https://pp.vk.me/c622222/v622222080/464ba/cI6JiujcSG8.jpg)
 ![alt tag](https://pp.vk.me/c622222/v622222080/464c2/xTM1zf2G8sQ.jpg)
+![alt tag](https://pp.vk.me/c622222/v622222080/464ca/Y85iyjOt3EY.jpg)
+
 ![alt tag](https://pp.vk.me/c622222/v622222080/464aa/cz0Uj0mHv7I.jpg)
