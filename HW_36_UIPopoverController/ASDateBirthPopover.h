@@ -16,7 +16,7 @@
 
 
 
-@interface ASDateBirthPopover : UIViewController
+@interface ASDateBirthPopover : UITableViewController//UIViewController
 
 @property (weak, nonatomic) IBOutlet UIDatePicker *datePicker;
 @property (nonatomic, weak) id <ASDateBirthPopoverDelegate> delegate;

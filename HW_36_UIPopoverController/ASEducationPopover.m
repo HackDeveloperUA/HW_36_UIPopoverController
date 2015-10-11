@@ -56,9 +56,16 @@
     [self passDataBack:[self.dataForArray objectAtIndex:row]];
 }
 
+-(void) dealloc {
+    
+    NSLog(@"Сука это dealloc");
+
+}
 
 - (void)passDataBack:(NSString*) backString
 {
+    NSLog(@"Сука это passDataBack");
+
     if ([_delegate respondsToSelector:@selector(dataFromEducationController:)])
     {
         [_delegate dataFromEducationController:backString];

@@ -146,11 +146,7 @@
                                          } completion:nil];
             return NO;
          }
-
-        
-        
     }
-
     
     return YES;
 }
@@ -223,21 +219,6 @@
     [viewForEducation.layer setCornerRadius:12];
     [viewForEducation setCenter:CGPointMake(CGRectGetMidX(self.view.bounds), CGRectGetMidY(self.view.bounds))];
     
-    /*
-    x      = CGRectGetWidth(viewForEducation.bounds)/8/2;
-    height = CGRectGetHeight(viewForEducation.bounds)/4.6;
-    y      = CGRectGetMaxY(viewForEducation.bounds) - height-10;
-    width  = CGRectGetWidth(viewForEducation.bounds) - x*2;
-    
-    
-    
-    UIButton *button = [UIButton buttonWithType: UIButtonTypeRoundedRect];
-    button.frame = CGRectMake(x, y, width, height);
-    [button setBackgroundColor:[UIColor colorWithRed:0.439 green:0.922 blue:0.42 alpha:1]];
-    [button setTitle:@"Done" forState:UIControlStateNormal];
-    [button addTarget:self action:@selector(DoneButtonEducationCustomView:) forControlEvents:UIControlEventTouchUpInside];
-    */
-    
     // Reuse varable
     x = CGRectGetWidth(viewForEducation.bounds)/8/2;
     y = CGRectGetMinY(viewForEducation.bounds)+20;
@@ -254,7 +235,6 @@
     ASDataArray* tmpData = [[ASDataArray alloc] init];
     self.data = tmpData;
     
-    //[viewForEducation addSubview:button];
     [viewForEducation addSubview:educationPickerView];
 
     return viewForEducation;
@@ -303,38 +283,6 @@
 
 
 #pragma mark - Selectors method for custom views
-
-
-
--(void) DoneButtonEducationCustomView:(id)sender {
-    
-   /*
-   UIPickerView* tmpPicker;
-    
-    for (id obj in [[self customEducationView] subviews]) {
-        if ([obj isKindOfClass:[UIPickerView class]]) {
-            tmpPicker = obj;
-        }
-    }
-    
-    NSInteger row = [tmpPicker selectedRowInComponent:0];
-    self.educationTextField.text = [self.data.educationArray objectAtIndex:row];
-    */
-    /*
-   [UIView animateWithDuration:0.7f delay:0 options:UIViewAnimationOptionCurveEaseIn animations:^{
-       [self.customEducationView setAlpha:0.f];
-   } completion:^(BOOL finished) {
-   
-       [self.customEducationView resignFirstResponder];
-    
-       // Удаляем из памяти
-       [self.customEducationView removeFromSuperview];
-       self.customEducationView = nil;
-       self.data = nil;
-   
-   }];*/
-
-}
 
 
 - (IBAction)birthDateChanged:(UIDatePicker *)sender {
@@ -390,6 +338,7 @@
 - (void)dataFromEducationController:(NSString *)data
 {
     self.educationTextField.text = data;
+
 }
 
 

@@ -20,6 +20,7 @@
 
 @property (strong, nonatomic) NSArray* dataForArray;
 @property (weak, nonatomic) IBOutlet UIPickerView *pickerView;
+
 @property (nonatomic, weak) id<ASEducationPopoverDelegate> delegate;
 
 @end

@@ -28,7 +28,7 @@ static NSString *kAttributeTitle = @"Attributed string operation successfully co
 -(void) loadView {
     
     [super loadView];
-    
+
     for (id obj in [[self view] subviews]) {
         
         NSLog(@"- %@ ",[obj class]);
@@ -46,7 +46,8 @@ static NSString *kAttributeTitle = @"Attributed string operation successfully co
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-  
+    
+
    
     UIBarButtonItem* backButtonItem = [[UIBarButtonItem alloc] initWithBarButtonSystemItem:UIBarButtonSystemItemCancel target:self action:@selector(backAction:)];
     self.navigationItem.leftBarButtonItem = backButtonItem;
